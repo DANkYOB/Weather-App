@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.WeatherApp" parent="Base.Theme.WeatherApp" />
+
+    <style name="ClickableTextView">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
 </resources>

@@ -7,6 +7,10 @@ android {
     namespace = "com.example.weatherapp"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.weatherapp"
         minSdk = 24
@@ -52,4 +56,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation ("com.airbnb.android:lottie:6.4.0")
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
 }
