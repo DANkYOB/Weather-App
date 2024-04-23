@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.weatherapp"
+    namespace = "com.mriganka.weatherapp"
     compileSdk = 34
 
     buildFeatures{
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.weatherapp"
+        applicationId = "com.mriganka.weatherapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
